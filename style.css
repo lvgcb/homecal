@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  paddin: 0px;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+.container{
+  position: relative;
+  width: 100%;
+  hight: 100%;
+  background-image:url( "https://elles.top/uploads/posts/2023-04/1681116650_elles-top-p-girlyanda-na-zabor-pinterest-53.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  border-radius: 25px
+}
+.content h2{
+  font-size: 50px;
+  padding: 10px;
+}
+.content button{
+  height: 100px;
+  width: 150px;
+  font-size: 30px;
+  font - family: Times New Roman;
+}
